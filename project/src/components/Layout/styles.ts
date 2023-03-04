@@ -6,6 +6,6 @@ export const Container = styled.div`
 `;
 
 export const Content = styled.main`
-  min-width: 100vh;
-  height: 100%;
+  width: 100%;
+  min-height: 100%;
 `;

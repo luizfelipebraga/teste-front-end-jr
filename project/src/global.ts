@@ -17,6 +17,12 @@ export const GlobalStyle = createGlobalStyle`
     scrollbar-width: 1rem;
   }
 
+  :root {
+    --red: #f71963;
+    --text-gray: #9F9F9F;
+    --white-text: #fff;
+  }
+
   body {
     &::-webkit-scrollbar {
         width: .5rem;
@@ -33,7 +39,7 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   h1, h2, h3, h4, h5, span, button, p  {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: #949494;
   }
 

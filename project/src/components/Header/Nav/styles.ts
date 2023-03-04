@@ -1,40 +1,51 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
-export const Container = styled.div`
+type LiProps = {
+  red?: boolean;
+};
+
+export const Ul = styled.div`
   display: flex;
   align-items: center;
-  gap: 5rem;
+  justify-content: center;
+  gap: 2rem;
 
-  padding: 1rem 0;
-  border-top: 1px solid #f0f0f0;
-  border-bottom: 1px solid #f0f0f0;
+  background: #ffffff;
+  box-shadow: 0px 8px 16px rgba(57, 48, 19, 0.12);
+  border-radius: 0px;
+
+  padding: .8rem 1rem .5rem 1rem;
 `;
 
-export const BoxInput = styled.div`
-  width: 55%;
-  background-color: #f7f5f2;
-
-  display: flex;
-  align-items: center;
-  border-radius: 10px;
-
-  padding: .8rem;
+export const Li = styled.li<LiProps>`
+  list-style: none;
 
   a {
-    color: #9f9f9f;
+    svg {
+      margin-right: -1rem;
+    }
+    transition: all 0.2s ease-out;
+
+    &:hover {
+      path {
+        stroke: var(--red);
+      }
+
+      span {
+        color: var(--red);
+      }
+    }
+    &:last-child {
+      display: flex;
+      align-items: center;
+    }
   }
-`;
-
-export const BoxUserActions = styled.div`
-  display: flex;
-  align-items: center;
-  gap: 2rem;
-`;
-
-export const Image = styled.img`
-  cursor: pointer;
-`;
-
-export const Input = styled.input`
-  background-color: #f7f5f2;
+  span {
+    line-height: 18px;
+    font-size: 0.75rem;
+    color: ${({ red }) => (red ? "var(--red)" : "var(--text-gray)")};
+    text-transform: uppercase;
+    margin: 0 2rem;
+    font-weight: 600;
+  }
 `;
