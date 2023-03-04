@@ -14,11 +14,11 @@ export const GlobalStyle = createGlobalStyle`
     scroll-behavior: smooth;
     background-color: #ffffff;
     -ms-overflow-style: none;
-    scrollbar-width: 1rem;
+    scrollbar-width: 2rem;
   }
 
   :root {
-    --red: #f71963;
+    --primary-color: #f71963;
     --text-gray: #9F9F9F;
     --white-text: #fff;
   }
@@ -28,13 +28,11 @@ export const GlobalStyle = createGlobalStyle`
         width: .5rem;
       }
     &::-webkit-scrollbar-track {
-      background: #0d0d0e;
+      background: #fff;
     }
     &::-webkit-scrollbar-thumb {
-      background-color: #fff;
-      width: 1rem;
+      background-color: var(--primary-color);
       border-radius: 4rem;
-      border: 1px solid #f8f8f8;
     }
   }
 

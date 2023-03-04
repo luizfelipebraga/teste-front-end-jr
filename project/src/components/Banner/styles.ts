@@ -7,7 +7,7 @@ export const Container = styled.div`
 `;
 
 export const Button = styled.a`
-  background: var(--red);
+  background: var(--primary-color);
   font-size: 1.125rem;
   font-weight: 600;
   padding: 1rem 4rem;
@@ -25,7 +25,7 @@ export const Image = styled.div`
   background-image: url(${Banner});
   background-repeat: no-repeat;
   background-size: cover;
-  
+
   height: 30rem;
   width: 100%;
 `;

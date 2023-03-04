@@ -7,7 +7,8 @@ type TitleProps = {
 export const Title = styled.span<TitleProps>`
   margin-top: 1rem;
   font-weight: 500;
-  color: ${({ isFirstIndex }) => (isFirstIndex ? "var(--red)" : "#4E4E4E")};
+  color: ${({ isFirstIndex }) =>
+    isFirstIndex ? "var(--primary-color)" : "#4E4E4E"};
 `;
 
 export const Container = styled.div`
@@ -22,7 +23,7 @@ export const Container = styled.div`
     }
 
     span {
-      color: var(--red);
+      color: var(--primary-color);
     }
   }
 

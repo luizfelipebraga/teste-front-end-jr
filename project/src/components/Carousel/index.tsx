@@ -21,6 +21,23 @@ export function Carousel({ children }: CarouselProps) {
     slidesToScroll: 4,
     prevArrow: <PrevArrow />,
     nextArrow: <NextArrow />,
+
+    responsive: [
+      {
+        breakpoint: 1400,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
 
   function NextArrow(props: any) {
