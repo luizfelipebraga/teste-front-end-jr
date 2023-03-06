@@ -8,7 +8,7 @@ export function Banner() {
             <Content>
               <p>Venha conhecer nossas promoções</p>
               <p>50% Off nos produtos</p>
-              <Button>Ver produto</Button>
+              <Button href="#">Ver produto</Button>
             </Content>
           </DarkBackground>
         </Image>

@@ -34,6 +34,8 @@ export const GlobalStyle = createGlobalStyle`
       background-color: var(--primary-color);
       border-radius: 4rem;
     }
+
+    overflow-x: hidden;
   }
 
   h1, h2, h3, h4, h5, span, button, p  {

@@ -43,7 +43,7 @@ export const About = styled.div`
   }
 `;
 
-export const WrapperImages = styled.div`
+export const WrapperImages = styled.li`
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;

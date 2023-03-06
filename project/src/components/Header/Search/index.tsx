@@ -13,8 +13,8 @@ export function SearchComponent() {
 
       <BoxInput>
         <Input placeholder="O que você está buscando?" />
-        <a href="#">
-          <BsSearch size={25}/>
+        <a href="#" aria-label="Search for a product">
+          <BsSearch size={25} />
         </a>
       </BoxInput>
 

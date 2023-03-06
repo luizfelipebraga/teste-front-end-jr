@@ -48,6 +48,7 @@ export function Carousel({ children }: CarouselProps) {
         className={className}
         style={{ ...style, width: "2rem", height: "2rem" }}
         onClick={onClick}
+        alt="Next arrow"
       />
     );
   }
@@ -58,8 +59,9 @@ export function Carousel({ children }: CarouselProps) {
       <img
         src={ArrowPrev}
         className={className}
-        style={{ ...style, width: '2rem', height: '2rem' }}
+        style={{ ...style, width: "2rem", height: "2rem" }}
         onClick={onClick}
+        alt="Prev arrow"
       />
     );
   }

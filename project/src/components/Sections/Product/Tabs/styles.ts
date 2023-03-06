@@ -4,7 +4,7 @@ type LiProps = {
   red?: boolean;
 };
 
-export const Ul = styled.div`
+export const Ul = styled.ul`
   width: 100%;
   text-align: center;
   background: #ffffff;

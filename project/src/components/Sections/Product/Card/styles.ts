@@ -27,6 +27,7 @@ export const Container = styled.div`
 
 export const Image = styled.img`
   width: 15rem;
+  height: 100%;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
 

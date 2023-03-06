@@ -36,7 +36,7 @@ export function ProductCard({ productName, photo, price, handleClick }: ProductP
         <InstallmentsPrice>{installmentPrice}</InstallmentsPrice>
         <FreeShipping>{shipping}</FreeShipping>
       </Content>
-      <Button>Comprar</Button>
+      <Button href="#">Comprar</Button>
     </Container>
   );
 }
