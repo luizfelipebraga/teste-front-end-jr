@@ -29,7 +29,7 @@ Local:  http://localhost:3000
 
 [x] react-router-dom - rotas
 
-[x] react-query - Pegar as informa
+[x] react-query - Pegar as informações da API de forma mais performática
 
 [x] react-modal - modal
 
