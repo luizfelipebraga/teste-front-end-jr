@@ -1,33 +1,61 @@
-# Teste Econverse: Vaga Desenvolvedor Front-End Jr
+# Projeto Econverse com ReactJs + Typescript.
 
-### Vem ser #Econverse!
+Faça o clone do projeto Econverse e instale os pacotes:
 
-Segue abaixo as instruções para a execução do teste.
+OBS: A versão do Node que eu usei é a LTS 18
 
-## Instruções
-- Faça um fork desse projeto para a sua conta pessoal do GitHub.
-- Crie um README com as instruções para compilar, testar e rodar o projeto.
-- O link do repositório deverá ser enviado para o e-mail ana.nascimento@econverse.com.br e pedro@econverse.com.br com o título **Teste Vaga FrontEnd Jr**
+```
+git clone https://github.com/luizfelipebraga/teste-front-end.git
 
-## Especificações Técnicas
-- Desenvolver a pagina em html conforme o layout nesse [Link](https://www.figma.com/file/rWnzPeoxgynuNPsJjV0VmV/Teste-Front-End-Jr?node-id=0%3A1). Para conseguir pegar os elementos do Figma, basta copiar o layout para sua conta que terá acesso de edição.
-- Montar a [Vitrine](https://app.econverse.com.br/teste-front-end/junior/tecnologia/layout/vitrine-produtos.png) de produtos consumindo as informações dos produtos em json atraves desse [Link](https://app.econverse.com.br/teste-front-end/junior/tecnologia/lista-produtos/produtos.json) com uso de React.js.
-- Desenvolver a interação ao clicar em um produto conforme layout. A interação consiste em abrir um modal com as principais informações do produto presente no arquivo [JSON](https://app.econverse.com.br/teste-front-end/junior/tecnologia/lista-produtos/produtos.json) conforme o produto que clicar.
-- Desenvolver os Htmls semânticos.
-- Utilizar Pré-processador Sass, Less ou Stylus.
-- Respeitar o Layout pixel a pixel, tamanho das fontes, cores e botões.
-- Não Utilizar Frameworks como Bootstrap, Foundation, ou afins.
+cd teste-front-end-jr
 
-## Pontos Extras
-- Utilizar Automatizadores de Tarefas como: (Grunt, Gulp ou outros).
-- Utilizar Boas práticas de SEO.
-- Organização do Projeto.
+cd project
 
-## O que avaliaremos em seu teste
-- Organização do projeto
-- Lógica do código
-- Identação do código
-- Uso de componentização
-- Alcance dos objetivos propostos
+yarn install || npm install
 
-**Boa sorte! ;)**
+yarn start || npm start
+```
+Depois disso, o Frontend deverá rodar no seguinte endereço:
+```
+Local:  http://localhost:3000
+```
+
+
+ ## Tecnologias/Pacotes e Boas Práticas:
+
+[x] React
+
+[x] Typescript - tipagem
+
+[x] react-router-dom - rotas
+
+[x] react-query - Pegar as informa
+
+[x] react-modal - modal
+
+[x] styled-components -> estilização
+
+[x] react-icons - icons
+
+[x] react-slick - carrousel ou slider
+#
+
+## Requesitos
+
+[x] Pegar os dados através do data.ts file
+
+[x] Suporte para IE, Chrome, Safari, Firefox
+
+[x] Semântica
+
+[x] Utilizar o react-modal para exibir um modal com infomações do produto
+
+[x] Estrutura e organização do código e dos arquivos
+
+[x] Soluções adotadas
+
+[x] Tecnologias utilizadas
+
+[x] Qualidade
+
+[x] Fidelidade ao Layout
