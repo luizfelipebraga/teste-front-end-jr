@@ -29,6 +29,9 @@ Local:  http://localhost:3000
 
 [x] react-router-dom - rotas
 
+[x] tsconfig.json - adicionando baseURL com paths pré definidos \
+                    para melhor importação dos componentes.
+
 [x] react-query - Pegar as informações da API de forma mais performática
 
 [x] react-modal - modal
@@ -38,7 +41,6 @@ Local:  http://localhost:3000
 [x] react-icons - icons
 
 [x] react-slick - carrousel ou slider
-#
 
 ## Requesitos
 
