@@ -13,11 +13,11 @@ cd project
 
 yarn install || npm install
 
-yarn start || npm start
+yarn start || npm run start
 ```
 Depois disso, o Frontend deverá rodar no seguinte endereço:
 ```
-Local:  http://localhost:3000
+Local:  http://localhost:5173
 ```
 
 
