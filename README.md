@@ -13,7 +13,7 @@ cd project
 
 yarn install || npm install
 
-yarn start || npm run start
+yarn dev || npm run dev
 ```
 Depois disso, o Frontend deverá rodar no seguinte endereço:
 ```
