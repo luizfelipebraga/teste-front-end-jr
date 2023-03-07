@@ -1,4 +1,4 @@
-export function convertPrice(price: number) {
+export function formatPrice(price: number) {
   const priceFormated = new Intl.NumberFormat("pt-BR", {
     style: "currency",
     currency: "BRL",

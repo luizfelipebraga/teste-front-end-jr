@@ -84,7 +84,8 @@ export const FreeShipping = styled.span`
   color: var(--primary-color);
 `;
 
-export const Button = styled.a`
+export const Button = styled.button`
+  border: 0;
   padding: 0.8rem 1rem;
   font-weight: 700;
   font-size: 0.875rem;
@@ -95,6 +96,7 @@ export const Button = styled.a`
   border-radius: 4px;
   transition: filter .2s ease-out;
   color: #ffffff;
+  cursor: pointer;
 
   &:hover {
     filter: brightness(.85); 

@@ -1,4 +1,4 @@
-import { convertPrice } from "@utils/convertPrice";
+import { formatPrice } from "@utils/formatPrice";
 import {
   Button,
   Container,
@@ -18,10 +18,15 @@ type ProductProps = {
   handleClick: () => void;
 };
 
-export function ProductCard({ productName, photo, price, handleClick }: ProductProps) {
-  const oldPrice = convertPrice(price + 200);
-  const priceFormated = convertPrice(price);
-  const halfPriceFormated = convertPrice(price / 2);
+export function ProductCard({
+  productName,
+  photo,
+  price,
+  handleClick,
+}: ProductProps) {
+  const oldPrice = formatPrice(price + 200);
+  const priceFormated = formatPrice(price);
+  const halfPriceFormated = formatPrice(price / 2);
 
   const installmentPrice = `ou 2x de ${halfPriceFormated} sem juros`;
   const shipping = "Frete Grátis";
@@ -36,7 +41,7 @@ export function ProductCard({ productName, photo, price, handleClick }: ProductP
         <InstallmentsPrice>{installmentPrice}</InstallmentsPrice>
         <FreeShipping>{shipping}</FreeShipping>
       </Content>
-      <Button href="#">Comprar</Button>
+      <Button onClick={handleClick}>Comprar</Button>
     </Container>
   );
 }

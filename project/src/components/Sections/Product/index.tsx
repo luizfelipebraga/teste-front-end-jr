@@ -21,7 +21,7 @@ import { useState } from "react";
 
 import { AiOutlineClose } from "react-icons/ai";
 import Modal from "react-modal";
-import { convertPrice } from "@utils/convertPrice";
+import { formatPrice } from "@utils/formatPrice";
 
 type ProductProps = {
   tabs?: boolean;
@@ -74,7 +74,7 @@ export function ProductSection({ tabs }: ProductProps) {
 
   function openModal(productId: number) {
     const getProductById = productData?.products[productId];
-    const priceFormatted = convertPrice(getProductById.price);
+    const priceFormatted = formatPrice(getProductById.price);
     setProductName(getProductById.productName);
     setPrice(priceFormatted);
     setPhoto(getProductById.photo);
