@@ -7,21 +7,21 @@ export function TopHeader() {
   return (
     <Container>
       <Box>
-        <Image src={ShieldCheck} alt={"Shield Check"} />
+        <Image src={ShieldCheck} alt={"Shield Check"} height={20} width={20} />
         <span>
           Compra <strong>100% segura</strong>
         </span>
       </Box>
 
       <Box>
-        <Image src={Truck} alt={"Truck"} />
+        <Image src={Truck} alt={"Truck"} height={20} width={20} />
         <span>
           <strong>Frete Grátis</strong> acima de R$ 200
         </span>
       </Box>
 
       <Box>
-        <Image src={CreditCard} alt={"CreditCard"} />
+        <Image src={CreditCard} alt={"CreditCard"} height={20} width={20} />
         <span>
           <strong>Parcele</strong> suas compras
         </span>

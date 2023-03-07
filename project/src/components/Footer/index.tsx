@@ -30,15 +30,15 @@ export function Footer() {
           <ul>
             <li className="f-title">Formas de Pagamento</li>
             <WrapperImages>
-              <img src={VisaIcon} alt="visa icon" />
-              <img src={VisaIcon} alt="visa icon" />
-              <img src={VisaIcon} alt="visa icon" />
-              <img src={VisaIcon} alt="visa icon" />
-              <img src={VisaIcon} alt="visa icon" />
-              <img src={VisaIcon} alt="visa icon" />
-              <img src={VisaIcon} alt="visa icon" />
-              <img src={VisaIcon} alt="visa icon" />
-              <img src={VisaIcon} alt="visa icon" />
+              <img src={VisaIcon} alt="visa icon" width={44} height={16} />
+              <img src={VisaIcon} alt="visa icon" width={44} height={16} />
+              <img src={VisaIcon} alt="visa icon" width={44} height={16} />
+              <img src={VisaIcon} alt="visa icon" width={44} height={16} />
+              <img src={VisaIcon} alt="visa icon" width={44} height={16} />
+              <img src={VisaIcon} alt="visa icon" width={44} height={16} />
+              <img src={VisaIcon} alt="visa icon" width={44} height={16} />
+              <img src={VisaIcon} alt="visa icon" width={44} height={16} />
+              <img src={VisaIcon} alt="visa icon" width={44} height={16} />
             </WrapperImages>
           </ul>
         </About>
