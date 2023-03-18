@@ -34,6 +34,7 @@ export const BoxUserActions = styled.div`
 
 export const Image = styled.img`
   cursor: pointer;
+  object-fit: cover;
 `;
 
 export const Input = styled.input`

@@ -9,7 +9,7 @@ import { BsSearch } from "react-icons/bs";
 export function SearchComponent() {
   return (
     <Container>
-      <Image src={logo} alt="logo" />
+      <Image src={logo} alt="logo" width={139} height={51} />
 
       <BoxInput>
         <Input placeholder="O que você está buscando?" />
@@ -19,10 +19,10 @@ export function SearchComponent() {
       </BoxInput>
 
       <BoxUserActions>
-        <Image src={box} alt="box" />
-        <Image src={heart} alt="heart" />
-        <Image src={userCircle} alt="userCircle" />
-        <Image src={shoppingCart} alt="shoppingCart" />
+        <Image src={box} alt="box" width={26} height={26} />
+        <Image src={heart} alt="heart" width={28} height={24} />
+        <Image src={userCircle} alt="userCircle" width={28} height={24} />
+        <Image src={shoppingCart} alt="shoppingCart" width={32} height={32} />
       </BoxUserActions>
     </Container>
   );

@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import ParterBanner from '@assets/partnerBanner.png';
+import ParterBanner from '@assets/partnerBanner.jpg';
 
 export const Container = styled.div`
   width: 100%;
